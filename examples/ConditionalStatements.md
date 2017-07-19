@@ -27,9 +27,13 @@ if (someTest) {
 ```
 ###### Not enclosed with braces when possible
 ```kotlin
-if (someTest) doSomething()
+if (someTest) 
+    doSomething()
 
-if (someTest) doSomething() else doSomethingElse()
+if (someTest) 
+    doSomething() 
+else 
+    doSomethingElse()
 
 if (someTest) {
     doSomething()
